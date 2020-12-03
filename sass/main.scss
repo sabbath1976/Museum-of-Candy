@@ -6,6 +6,11 @@ body {
     background-color: #f5d9d5;
 }
 
+.scrolled {
+    background-color: rgba(222, 192, 222, 0.9);
+    transition: background-color 0.5s;
+}
+
 #mainNavbar {
     .navbar-brand,
     .nav-link {
@@ -44,6 +49,7 @@ body {
 
 .content {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .blurb {
